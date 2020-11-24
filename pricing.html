@@ -134,17 +134,138 @@
         <div class="plans__overview__header">
             <h1>Which plan is right for you?</h1>
         </div>
-        <div class="tabs">
-            <div class="btn-group">
-                <button type="button" class="tab__btn active">Free</button>
-                <button type="button" class="tab__btn">Team</button>
-                <button type="button" class="tab__btn">Business</button>
+        <div class="tabs" id="plans__overview_tab" role="tablist">
+            <div class="btn-group nav nav-tabs">
+                <a id="nav-free-plan-tab" data-toggle="tab" href="#nav-free-plan" role="tab"
+                    aria-controls="nav-free-plan" aria-selected="true" class="btn tab__btn nav-link active">Free</a>
+                <a id="nav-team-plan-tab" data-toggle="tab" href="#nav-team-plan" role="tab"
+                    aria-controls="nav-team-plan" aria-selected="false" class="btn tab__btn nav-link">Team</a>
+                <a id="nav-business-plan-tab" data-toggle="tab" href="#nav-business-plan" role="tab"
+                    aria-controls="nav-business-plan" aria-selected="false" class="btn tab__btn nav-link">Business</a>
             </div>
         </div>
-        <div class="plans__overview__body">
-            <div class="plans__overview__container">
+        <div class="plans__overview__body tab-content" id="nav-tabContent">
+            <!-- Free Plan -->
+            <div class="plans__overview__container tab-pane fade show active" id="nav-free-plan" role="tabpanel"
+                aria-labelledby="nav-free-plan-tab">
                 <div class="row">
-                    <div class="col-12 col-lg-8 order-lg-2">col-8</div>
+                    <div class="col-12 col-lg-8 order-lg-2">
+                        <img src="site-assets/images/xf-product 1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4 order-lg-1">
+                        <h3>Free plan:</h3>
+                        <ul>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Collect data from</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Send data to unlimited destinations</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">10,000 monthly users included</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Activate audiences with Personas</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Enforce data quality with Protocols</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Transform and enrich your data</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Set granular user roles and permissions</p>
+                            </li>
+                        </ul>
+                        <div class="demo__status">
+                            <a href="#">Request demo</a>
+                            <span>14-day free trial</span>
+                        </div>
+                        <div class="my-4">
+                            <button type="submit" class="btn btn-primary btn-sm btn__primary">Create a free
+                                account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Plan -->
+            <div class="plans__overview__container tab-pane fade show" id="nav-team-plan" role="tabpanel"
+                aria-labelledby="nav-team-plan-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-8 order-lg-2">
+                        <img src="site-assets/images/p-img-7 1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4 order-lg-1">
+                        <h3>Team plan:</h3>
+                        <ul>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Collect data from</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Send data to unlimited destinations</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">10,000 monthly users included</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Activate audiences with Personas</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Enforce data quality with Protocols</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Transform and enrich your data</p>
+                            </li>
+                            <li>
+                                <span class="my-auto mr-3"><img src="site-assets/images/icon__checked--green.svg"
+                                        alt=""></span>
+                                <p class="my-auto">Set granular user roles and permissions</p>
+                            </li>
+                        </ul>
+                        <div class="demo__status">
+                            <a href="#">Request demo</a>
+                            <span>14-day free trial</span>
+                        </div>
+                        <div class="my-4">
+                            <button type="submit" class="btn btn-primary btn-sm btn__primary">Create a free
+                                account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Business Plan -->
+            <div class="plans__overview__container tab-pane fade show" id="nav-business-plan" role="tabpanel"
+                aria-labelledby="nav-business-plan-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-8 order-lg-2">
+                        <img src="site-assets/images/p-img-8 1.png" class="img-fluid" alt="">
+                    </div>
                     <div class="col-12 col-lg-4 order-lg-1">
                         <h3>Business plan:</h3>
                         <ul>
@@ -198,8 +319,250 @@
         </div>
     </section>
 
+    <!-- Compare plans -->
+    <section class="py-5">
+        <div class="container">
+            <div class="container py-5">
+                <h2 class="text-center font-weight-bold">Compare plans</h2>
+            </div>
+            <div class="table-responsive-lg">
+                <table class="table table-striped pricing-table">
+                    <thead>
+                        <tr>
+                            <th class="text-center border-0 pb-5"></th>
+                            <!-- <th class="border-0 pb-5 h3 plan-content-title"> Collect and send data anywhere</th> -->
+                            <th class="text-center border-0 pb-5">
+                                <h6 class="lead font-weight-bold pricing-plan-title">Free</h6>
+                                <button class="btn btn__primary btn-rounded">Create a free account</button>
+                            </th>
+                            <th class="text-center border-0 pb-5">
+                                <h6 class="lead font-weight-bold pricing-plan-title">Team</h6>
+                                <p class="small pricing-plan-allotment">14 day free trial</p>
+                            </th>
+                            <th class="text-center border-0 pb-5">
+                                <h6 class="lead font-weight-bold pricing-plan-title">Business</h6>
+                                <button class="btn btn__primary btn-rounded">Get a demo</button>
+                            </th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th class="text-left border-0 pb-4 pl-0">Collect and send data anywhere</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row" class="border-0">Sources<span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="border-0 text-center">
+                                <span class="icon icon-rounded icon-success"><small class="text-muted">2
+                                        Sources</small></span>
+                            </td>
+                            <td class="border-0 text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Unlimited</small></span>
+                            </td>
+                            <td class="border-0 text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Unlimited</small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Visual Tagger<span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span>
+                            </td>
+                            <td class="text-center"><span class="icon icon-rounded icon-success"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span></td>
+                            <td class="text-center"><span class="icon icon-rounded icon-success"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Destinations<span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Unlimited</small></span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Unlimited</small></span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Unlimited</small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Functions<span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small class="text-muted">50
+                                        Hours</small></span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small class="text-muted">50
+                                        Hours</small></span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Custom</small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Warehouses<span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small class="text-muted">1
+                                        Warehouse</small></span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small class="text-muted">1
+                                        Warehouse</small></span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-rounded icon-success"><small
+                                        class="text-muted">Unlimited</small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="border-bottom">Developer Tools<span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="text-center border-bottom">
+                                <span class="icon icon-rounded icon-danger"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span>
+                            </td>
+                            <td class="text-center border-bottom">
 
+                                <span class="icon icon-rounded icon-danger"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span>
+                            </td>
+                            <td class="text-center border-bottom">
+                                <span class="icon icon-rounded icon-success"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="border-bottom">Config API <span class="ml-1"><a href="#"><img
+                                            src="site-assets/images/icon__info.svg" alt=""></a></span></td>
+                            <td class="text-center border-bottom">
+                                <span class="icon icon-rounded icon-danger"><img src="site-assets/images/Rectangle.png"
+                                        alt=""></span>
+                            </td>
+                            <td class="text-center border-bottom">
 
+                                <span class="icon icon-rounded icon-danger"><img src="site-assets/images/Rectangle.png"
+                                        alt=""></span>
+                            </td>
+                            <td class="text-center border-bottom">
+                                <span class="icon icon-rounded icon-success"><img
+                                        src="site-assets/images/icon__checked--green.svg" alt=""></span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Section -->
+    <section class="py-md-5">
+        <div class="container">
+            <div class="container py-5">
+                <h2 class="text-center font-weight-bold">Frequently asked questions</h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="card border-bottom border-top-0 border-left-0 border-right-0">
+                    <div class="card-header bg-transparent" id="headingOne">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link btn-block text-left text-dark" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How can I estimate my MTUs?
+                            </a>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-bottom border-top-0 border-left-0 border-right-0">
+                    <div class="card-header bg-transparent" id="headingTwo">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link btn-block text-left collapsed text-dark" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is there a free trial of the paid plans?
+                            </a>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-bottom border-top-0 border-left-0 border-right-0">
+                    <div class="card-header bg-transparent" id="headingThree">
+                        <h2 class="mb-0">
+                            <a class="btn btn-link btn-block text-left collapsed text-dark" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Does Segment handle billing for my Sources or Destinations services?
+                            </a>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Webinar Registration -->
+    <section class="webinar_registration_section">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-5 order-md-2 d-none d-md-block">
+                <img src="site-assets/images/img__company-logos 2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-md-6 order-md-1">
+                <div class="webinar_registration_content">
+                    <h1>Video Section Text</h1>
+                    <p>With real-time integrated data flows from Segment, we can truly.</p>
+
+                    <button type="submit" class="btn btn__secondary mr-md-3 px-md-3 mb-3">Get Started</button>
+                    <button type="submit" class="btn btn__primary px-md-3 mb-3">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div>
             <a class="navbar-brand" href="#"><img src="site-assets/images/site-logo.png" alt=""></a>
@@ -253,9 +616,16 @@
                 </ul>
             </div>
         </div>
+
+        <div>
+            <p class="text-white">
+                <span class="mr-3">© BotSuite.io, Inc.</span> 
+                <a href="#" class="mr-3 text-white">Privacy policy</a>     
+                <a href="#" class="mr-3 text-white">Terms of Service</a>       
+                <a href="#" class="mr-3 text-white">Website Data Collection</a>
+            </p>
+        </div>
     </footer>
-
-
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -2,6 +2,7 @@
 
 .btn__primary{
     background: #000000;
+    color: #fff;
     border: 2px solid #14B5D0;
     box-sizing: border-box;
     border-radius: 8px;
@@ -15,6 +16,31 @@
     background-color: transparent;
     border: 2px solid #000;
     color: #000;
+}
+
+.btn__secondary{
+    background: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.btn__secondary:focus, .btn__secondary:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;  
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background: rgba(213, 218, 240, 0.15) !important;
+    border-radius: 4px !important;
+}
+.table-striped tbody tr {
+    border: none !important;
 }
 
 /* Navbar Header */
@@ -109,6 +135,7 @@
 .site__header__container>.site__header a:hover{
     color: #afb5cee7;
 }
+
 /* Plans Pricing */
 .pricing__container{
     width: 100%;
@@ -206,6 +233,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
+    overflow-x: hidden;
 }
 .plans__overview>.plans__overview__header{
     margin-top: 40px;
@@ -237,6 +265,9 @@
     font-weight: normal;
     font-size: 20px;
     text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
     color: #000000;
 }
 .plans__overview>.tabs>.btn-group>.tab__btn:hover, .plans__overview>.tabs>.btn-group>.tab__btn:focus{
@@ -301,6 +332,42 @@
     margin-left: 15px;
 }
 
+/* Webinar Registration Section */
+.webinar_registration_section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 124px;
+    overflow: hidden !important;
+}
+.webinar_registration_section .webinar_registration_content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.webinar_registration_section .row{
+    background: linear-gradient(180deg, rgba(112, 200, 168, 0.72) 0%, rgba(255, 255, 255, 0) 100%), #29B5E8;
+    padding: 63px;
+}
+.webinar_registration_section .row .col-12 img{
+    position: absolute;
+}
+.webinar_registration_content h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF !important;
+}
+.webinar_registration_content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    color: #262E4F !important;
+}
+
 
 /* Footer */
 footer{
@@ -319,7 +386,6 @@ footer .row .col-12 h5{
     line-height: 31px;
     color: #fff;
 }
-
 footer .row .col-12 ul>li{
     margin-top: 1rem;
 }
@@ -328,7 +394,14 @@ footer .row .col-12 ul>li>a{
     font-size: 14px;
     padding: 0 0 2px;
 }
+footer .row .col-12 ul>li>a:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #fff;
+    text-decoration: none;
+}
+
 @media (max-width:992px) {
+    /* Navbar */
     .navbar{
         padding: 7px 20px;
     }
@@ -345,6 +418,7 @@ footer .row .col-12 ul>li>a{
         display: block;
     }
 
+    /* Site Header */
     .site__header{
         padding: 10px 0;
     }
@@ -358,6 +432,7 @@ footer .row .col-12 ul>li>a{
         margin-top: 10px;
     }
 
+    /* Pricing Section */
     .pricing__container{
         flex-flow: column;
         padding: 0 20px 0 0;
@@ -378,7 +453,7 @@ footer .row .col-12 ul>li>a{
         padding: auto;
     }
 
-
+    /* Plans Overview */
     .plans__overview>.plans__overview__body{
         padding: 87px 20px;
     }
@@ -393,7 +468,19 @@ footer .row .col-12 ul>li>a{
         margin-top: 20px;
     }
 
+    /* Webinar Registration Section */
+    .webinar_registration_section{
+        padding: 20px;
+    }
+    .webinar_registration_section .row{
+        background: linear-gradient(180deg, rgba(112, 200, 168, 0.72) 0%, rgba(255, 255, 255, 0) 100%), #29B5E8;
+        padding: 63px 20px;
+    }
+    .webinar_registration_section .row .col-12 img{
+        position: absolute;
+    }
 
+    /* Footer */
     footer{
         padding: 20px;
     }
