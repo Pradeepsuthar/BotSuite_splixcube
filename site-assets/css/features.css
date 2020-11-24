@@ -190,6 +190,52 @@
     word-break: break-all;
 }
 
+/* For Business Section */
+.market_section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 124px;
+    overflow-x: hidden !important;
+    background: linear-gradient(180deg, #001244 0%, rgba(56, 38, 131, 0) 64.58%, rgba(255, 255, 255, 0) 100%), #1C0732;
+}
+.market_section .market_section_content h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    color: #FFFFFF !important;
+}
+.market_section .market_section_content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #737A96;
+    word-break: break-all;
+}
+.market_section .market_section_images{
+    position: relative;
+}
+.market_section .market_section_images .img_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.market_section .market_section_images .img_2{
+    position: absolute;
+    top: -70px;
+    left: 40px;
+    z-index: 1;
+    width: 300px;
+}
+.market_section .market_section_images .img_3{
+    width: 80px;
+    position: absolute;
+    left: 30px;
+    bottom: -350px;
+    z-index: 1;
+}
 /* Footer */
 footer{
     width: 100%;
