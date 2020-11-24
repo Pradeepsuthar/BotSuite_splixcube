@@ -236,6 +236,204 @@
     bottom: -350px;
     z-index: 1;
 }
+
+/* funnel_section */
+.funnel_section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 124px;
+    overflow-x: hidden !important;
+    background: #1C0732;
+}
+.funnel_section .funnel_section_header{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.funnel_section .funnel_section_header h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    color: #E4E7F5;
+}
+.funnel_section .funnel_section_header p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #B1B5D3;
+    --webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.funnel_section .card{
+    background: #FCFDFF;
+    border-radius: 25px;
+    object-fit: contain;
+}
+.funnel_section .card .card-body h5{
+    word-break: break-all;
+}
+.funnel_section .card .card-body p{
+    word-break: break-all;
+}
+.funnel_section .card .card-body .count span{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background: #E17192;
+    color: #ffff;
+    border-radius: 15px;
+    width: auto;
+    padding: 10px;
+}
+.funnel_section .card .row div:last-child{
+    padding: 20px 40px;
+}
+.funnel_section .card .row div:first-child{
+    padding: 0;
+    object-fit: contain;
+}
+.funnel_section .card .row div:first-child img{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Learn more Section */
+.learn_more_section{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background: #1C0732;
+}
+.learn_more_section .row .left_img{
+    background: url(../images/success\ 1.png);
+    filter: drop-shadow(15px -10px 50px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 50px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 100vh;
+}
+.learn_more_section .learn_more_section_content h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    color: #E4E7F5;
+}
+.learn_more_section .learn_more_section_content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 44px;
+    color: #B1B5D3;
+    --webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.learn_more_section ul li.Features_tab.Features{
+    background-color: #52BD95 !important;
+}
+.learn_more_section ul li.Features_tab.Pricing{
+    background-color: #4683EA !important;
+}
+.learn_more_section ul li.Features_tab.Tutorial{
+    background-color: #042A75 !important;
+}
+.learn_more_section ul li.Features_tab{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding: 5px 20px;
+   max-width: 450px;
+}
+.learn_more_section ul li.Features_tab .icon img{
+    width: 50px;
+    height: 50px;
+}
+.learn_more_section ul li.Features_tab .text{
+    margin-top: 10px;
+}
+.learn_more_section ul li.Features_tab .text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.learn_more_section ul li.Features_tab .read_more_btn a{
+    background: #FCFDFF;
+    border-radius: 15px;
+    width: 137px;
+    height: 40px;
+    border: none;
+}
+.learn_more_section ul li.Features_tab .read_more_btn a:hover, .learn_more_section ul li.Features_tab .read_more_btn a:focus{
+    outline: none;
+    background-color: #FCFDFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Webinar Registration Section */
+.webinar_registration_section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 124px;
+    overflow-x: hidden !important;
+}
+.webinar_registration_section .row{
+    background: linear-gradient(180deg, #382683 0%, rgba(151, 142, 190, 0) 99.99%, rgba(255, 255, 255, 0) 100%), #0D1537;
+    border-radius: 8px;
+    padding: 63px 100px;
+}
+.webinar_registration_content h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #E4E7F5;
+}
+.webinar_registration_content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    color: #B1B5D3;
+}
+
+/* funnel_preview_section */
+.funnel_preview_section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 124px;
+    overflow-x: hidden !important;
+}
+.funnel_preview_section .row .col-12 div h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 44px;
+    color: #262E4F;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.funnel_preview_section .row .col-12 div p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #737A96;
+    margin-bottom: 20px;
+    word-break: break-all;
+}
 /* Footer */
 footer{
     width: 100%;
@@ -260,6 +458,11 @@ footer .row .col-12 ul>li>a{
     color: #B1B5D3;
     font-size: 14px;
     padding: 0 0 2px;
+}
+footer .row .col-12 ul>li>a:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #fff;
+    text-decoration: none;
 }
 @media (max-width:992px) {
     .navbar{
@@ -382,6 +585,74 @@ footer .row .col-12 ul>li>a{
         word-break: break-all;
     }
     
+
+    .funnel_section{
+        padding: 100px 20px;
+    }
+    .funnel_section .card .card-body p{
+        word-break: break-all;
+    }
+    .funnel_section .card .row div:last-child{
+        padding: 20px;
+    }
+    .funnel_section .card .row div:first-child{
+        padding: 0;
+        object-fit: cover;
+    }
+    .funnel_section .card .row div:first-child img{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 100%;
+        height: auto !important;
+    }
+    .funnel_section .card .card-body .count span{
+        bottom: 20px;
+        left: 20px;
+    }
+
+
+    .learn_more_section .left_img{
+        display: none;
+    }
+    .learn_more_section .learn_more_section_container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    /* Webinar Registration Section */
+    .webinar_registration_section{
+        padding: 100px 20px;
+    }
+    .webinar_registration_section .row{
+        background: linear-gradient(180deg, #382683 0%, rgba(151, 142, 190, 0) 99.99%, rgba(255, 255, 255, 0) 100%), #0D1537;
+        border-radius: 8px;
+        padding: 63px 20px;
+    }
+    .webinar_registration_content h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        color: #E4E7F5;
+    }
+    .webinar_registration_content p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 35px;
+        color: #B1B5D3;
+    }
+
+    /* funnel_preview_section */
+    .funnel_preview_section{
+        padding: 0 20px;
+    }
+
     footer{
         padding: 20px;
     }
