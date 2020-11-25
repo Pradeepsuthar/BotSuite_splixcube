@@ -79,7 +79,7 @@
 }
 /* Navbar Header */
 .navbar {
-    background-color: var(--white);
+    background-color: var(--blue);
     color: #fff;
     padding: 7px 87px;
     display: flex;
@@ -102,7 +102,7 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    color: var(--dark);
+    color: var(--white);
     --webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -139,7 +139,7 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    color: var(--dark);
+    color: var(--white);
     --webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     margin-right: 20px;
@@ -151,6 +151,44 @@
 }
 .nav__btns .mobile-menu-toggle {
     display: none;
+}
+/* Site Header */
+.site_header_container {
+    background-color: var(--blue);
+}
+.site_header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../images/index_site-header.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+.site_header .site_header_content {
+    width: 50%;
+    padding-left: 80px;
+}
+.site_header .site_header_content h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 44px;
+    color: #fff;
+}
+.site_header .site_header_content p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    color: var(--gray);
+}
+.site_header .site_header_content .action {
+    width: 50%;
 }
 /* Footer */
 footer {
@@ -207,6 +245,27 @@ footer .row .col-12 ul > li > a:hover {
     }
     .nav__btns .mobile-menu-toggle {
         display: block;
+    }
+    /* Site Header */
+    .site_header {
+        width: 100%;
+        height: 80vh;
+        overflow: hidden;
+        background-image: none;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .site_header .site_header_content {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .site_header .site_header_content .action {
+        width: 100%;
     }
     /* Footer */
     footer {
