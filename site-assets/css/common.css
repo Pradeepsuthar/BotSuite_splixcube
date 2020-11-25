@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* Global Styles */
 :root {
-    --blue: #007bff;
+    --blue: #1c0732;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -17,14 +16,17 @@
     --green: #28a745;
     --teal: #20c997;
     --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #0D1418;
+    --gray: #E4E7F5;
+    --gray2: #FCFDFF;
+    --gray3: #737A96;
+    --light-gray: #B1B5D3;
     --gray-dark: #323739;
-    --primary: #007bff;
+    --primary: #39b386;
     --secondary: #d9dcdf;
     --success: #28a745;
     --info: #17a2b8;
     --warning: #ffc107;
+    --white: #fff;
     --danger: #dc3545;
     --light: #5d6063;
     --dark: #131c21;
@@ -34,13 +36,14 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --font-family-inter: 'Inter', sans-serif;
 }
-
-
-body{
+body {
     font-family: var(--font-family-inter);
     overflow-x: hidden !important;
+}
+.text-primary {
+    color: var(--primary) !important;
 }
