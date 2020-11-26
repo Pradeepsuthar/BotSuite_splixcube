@@ -156,7 +156,7 @@
 .clip__path {
     background-color: var(--blue);
     width: 100%;
-    height: 180vh;
+    height: 130vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
     position: absolute;
 }
@@ -164,7 +164,7 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding: 124px;
+    padding: 40px 100px;
 }
 .site__header__container .site__header__images {
     position: relative;
@@ -174,23 +174,9 @@
     justify-content: center;
     display: grid;
 }
-.site__header__container .site__header__images .img_1 {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 260px;
-    height: 269px;
-}
-.site__header__container .site__header__images .img_2 {
-    width: 554px;
-    height: 660px;
-}
-.site__header__container .site__header__images .img_3 {
-    position: absolute;
-    bottom: -60px;
-    right: -100px;
-    width: 112px;
-    height: 615px;
+.site__header__container .site__header__images img {
+    width: 100%;
+    height: auto;
 }
 .site__header__container .site__header__content h1 {
     font-style: normal;
@@ -198,7 +184,6 @@
     font-size: 38px;
     line-height: 44px;
     color: var(--gray);
-    margin-bottom: 43px;
 }
 .site__header__container .site__header__content p {
     font-style: normal;
@@ -206,7 +191,6 @@
     font-size: 16px;
     line-height: 35px;
     color: var(--gray2);
-    margin-bottom: 43px;
 }
 /* For Business Section */
 .business_section {
@@ -260,51 +244,33 @@
     color: var(--gray3);
     word-break: break-all;
 }
-/* For Business Section */
-.market_section {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 100px 124px;
-    overflow: hidden !important;
+/* Comman Section */
+.jumbotron {
+    background-color: transparent;
+}
+.background_gradient {
     background: linear-gradient(180deg, #001244 0%, rgba(56, 38, 131, 0) 64.58%, rgba(255, 255, 255, 0) 100%), #1C0732;
 }
-.market_section .market_section_content h1 {
+.background_gradient h1 {
+    color: var(--white);
+}
+.background_gradient p {
+    color: var(--gray3);
+}
+.jumbotron h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 44px;
-    color: var(--white) !important;
+    word-break: break-all;
 }
-.market_section .market_section_content p {
+.jumbotron p {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 30px;
-    color: var(--gray3);
     word-break: break-all;
-}
-.market_section .market_section_images {
-    position: relative;
-}
-.market_section .market_section_images .img_1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.market_section .market_section_images .img_2 {
-    position: absolute;
-    top: -70px;
-    left: 40px;
-    z-index: 1;
-    width: 300px;
-}
-.market_section .market_section_images .img_3 {
-    width: 80px;
-    position: absolute;
-    left: 30px;
-    bottom: -350px;
-    z-index: 1;
+    color: var(--gray3);
 }
 /* funnel_section */
 .funnel_section {
@@ -558,11 +524,14 @@ footer .row .col-12 ul > li > a:hover {
         display: block;
     }
     /* Site Header */
+    .clip__path {
+        height: 180vh;
+    }
     .site__header__container {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        padding: 120px 20px;
+        padding: 20px;
     }
     .site__header__container .site__header__images {
         position: relative;
@@ -598,7 +567,6 @@ footer .row .col-12 ul > li > a:hover {
         line-height: 25px;
         color: #fff !important;
         word-break: break-all;
-        margin-bottom: 10px;
     }
     .site__header__container .site__header__content p {
         font-style: normal;
@@ -607,7 +575,6 @@ footer .row .col-12 ul > li > a:hover {
         line-height: 25px;
         color: #FCFDFF;
         word-break: break-all;
-        margin-bottom: 20px;
     }
     /* Business Section */
     .business_section {
@@ -615,7 +582,7 @@ footer .row .col-12 ul > li > a:hover {
         margin-right: auto;
         margin-left: auto;
         padding: 20px;
-        margin-top: -90px;
+        margin-top: 0;
         margin-bottom: 0;
     }
     .business_section .row .col-12 .business_section_content {
@@ -661,13 +628,24 @@ footer .row .col-12 ul > li > a:hover {
         color: #737A96;
         word-break: break-all;
     }
-    /* For Business Section */
-    .market_section {
-        padding: 50px 20px;
+    /* Comman section */
+    .jumbotron h1 {
+        font-size: 30px;
     }
     /* Funnel Section */
     .funnel_section {
-        padding: 100px 20px;
+        padding: 40px 20px;
+    }
+    .funnel_section .funnel_section_header h1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 38px;
+        line-break: anywhere;
+    }
+    .funnel_section .funnel_section_header p {
+        font-size: 20px;
+        line-height: 30px;
+        line-break: auto;
     }
     .funnel_section .card .card-body p {
         word-break: break-all;
@@ -706,7 +684,7 @@ footer .row .col-12 ul > li > a:hover {
     }
     /* Webinar Registration Section */
     .webinar_registration_section {
-        padding: 100px 20px;
+        padding: 20px;
     }
     .webinar_registration_section .row {
         background: linear-gradient(180deg, #382683 0%, rgba(151, 142, 190, 0) 99.99%, rgba(255, 255, 255, 0) 100%), #0D1537;
