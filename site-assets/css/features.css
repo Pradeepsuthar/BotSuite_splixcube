@@ -314,6 +314,7 @@
 }
 .funnel_section .card .card-body p {
     word-break: break-all;
+    margin-bottom: 3rem
 }
 .funnel_section .card .card-body .count span {
     position: absolute;
