@@ -231,7 +231,7 @@
     text-align: center;
 }
 .pricing__container > .pricing__card > .pricing__card__header > span > img {
-    width: 38.4px;
+    width: auto;
 }
 .pricing__container > .pricing__card > .pricing__card__header > h5 {
     padding-top: 29.8px;
@@ -411,7 +411,8 @@
     align-items: center;
 }
 .webinar_registration_section .row {
-    background: linear-gradient(180deg, rgba(112, 200, 168, 0.72) 0%, rgba(255, 255, 255, 0) 100%), #29B5E8;
+    /* background: linear-gradient(180deg, rgba(112, 200, 168, 0.72) 0%, rgba(255, 255, 255, 0) 100%), #29B5E8; */
+    background-color: #1C0732;
     padding: 63px;
 }
 .webinar_registration_section .row .col-12 img {
@@ -429,7 +430,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 35px;
-    color: #262E4F !important;
+    color: var(--gray3) !important;
 }
 /* Footer */
 footer {
