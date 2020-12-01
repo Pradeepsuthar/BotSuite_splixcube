@@ -243,7 +243,13 @@ ul > li > a:hover {
     background: #6152BD;
     color: #fff;
 }
+.customers_features_container .features_list div:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    border: 1px solid rgba(82, 189, 149, 0.91);
+}
 .customers_features_container .features_list div {
+    border: 1px solid white;
     margin: 12px;
     background: rgba(213, 218, 240, 0.4);
     color: #737A96;
