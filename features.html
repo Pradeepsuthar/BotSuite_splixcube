@@ -17,10 +17,19 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <a class="navbar-brand" href="#"><img src="site-assets/images/site-logo.png" alt=""></a>
-    <div class="nav__links">
-      <ul class="nav">
+    <button type="button" class="navbar-toggler text-primary" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list-nested" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav mx-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
@@ -36,21 +45,23 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item d-block d-lg-none">
+          <div class="btn__primary demo-btn">
+            <div class="eff"></div>
+            <a href="#"> Get a Demo </a>
+          </div>
+        </li>
       </ul>
-    </div>
-    <div class="nav__btns">
-      <a class="login-link" href="#">Login</a>
-      <div class="btn__primary demo-btn">
-        <div class="eff"></div>
-        <a href="#"> Get a Demo </a>
+      <div class="nav__btns my-auto ml-auto">
+        <a class="login-link" href="#">Login</a>
+        <div class="btn__primary demo-btn">
+          <div class="eff"></div>
+          <a href="#"> Get a Demo </a>
+        </div>
       </div>
-      <a href="#" class="text-primary mobile-menu-toggle">
-        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list-nested" fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd"
-            d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
-        </svg>
-      </a>
     </div>
   </nav>
 
@@ -68,7 +79,11 @@
       <div class="col-12 col-lg-6 order-lg-1">
         <div class="site__header__content">
           <h1>Botsuite created by marketers for marketers, entrepreneurs & businesses</h1>
-          <p>World’s most powerful & reliable facebook messenger bot to convert your site & page visitors to leads, and leads to sales. The all in one AI enabled suite that comprises of bot to create multiple ecommerce stores, interact with the users, grab the user data and prepare the list in autoresponders to send mails, broadcast sms through sms gateway & many more. So, whether you are an individual, e-commerce store owner, online marketer or affiliate reseller/agency, you are going to need all the above tools and we’ve got you covered!
+          <p>World’s most powerful & reliable facebook messenger bot to convert your site & page visitors to leads, and
+            leads to sales. The all in one AI enabled suite that comprises of bot to create multiple ecommerce stores,
+            interact with the users, grab the user data and prepare the list in autoresponders to send mails, broadcast
+            sms through sms gateway & many more. So, whether you are an individual, e-commerce store owner, online
+            marketer or affiliate reseller/agency, you are going to need all the above tools and we’ve got you covered!
           </p>
           <div class="btns_groups mt-4">
             <div class="btn__secondary">
@@ -107,7 +122,9 @@
       <div class="col-12 col-md-12 col-lg-6 col-xl-4">
         <div class="business_section_content">
           <h1>For Business Owners</h1>
-          <p>As a business, we understand that your prime motto is to ensure that your visitors are converted to sales. Get a chatbot up within minutes for your business & let your virtual employee take the charge. Also botsuite integrates with other necessary tools seamlessly that will skyrocket your conversions.</p>
+          <p>As a business, we understand that your prime motto is to ensure that your visitors are converted to sales.
+            Get a chatbot up within minutes for your business & let your virtual employee take the charge. Also botsuite
+            integrates with other necessary tools seamlessly that will skyrocket your conversions.</p>
         </div>
       </div>
     </div>
@@ -117,11 +134,12 @@
   <section class="jumbotron jumbotron-fluid my-0 background_gradient">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-4">
           <h1>For Marketers</h1>
-          <p>Engage, acquire new customers, streamline new leads & contacts into your existing marketing ecosystem without bothering developers. And that’s exactly what botsuite gives you to maximize sales!</p>
+          <p>Engage, acquire new customers, streamline new leads & contacts into your existing marketing ecosystem
+            without bothering developers. And that’s exactly what botsuite gives you to maximize sales!</p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-8">
           <img src="site-assets/images/p-img-8 1.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -132,12 +150,14 @@
   <section class="jumbotron jumbotron-fluid my-0">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-8">
           <img src="site-assets/images/p-img-9 1.png" class="img-fluid" alt="">
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-4">
           <h1>For Freelancers & Agencies</h1>
-          <p>It’s all about how much satisfied your customer is! If you’ve got the touch, the game is your’s. Build, publish and manage bots for your clients, earn massive profit and serve any type of customer - be it local business, companies or startups. </p>
+          <p>It’s all about how much satisfied your customer is! If you’ve got the touch, the game is your’s. Build,
+            publish and manage bots for your clients, earn massive profit and serve any type of customer - be it local
+            business, companies or startups. </p>
         </div>
       </div>
     </div>
@@ -149,217 +169,237 @@
       <h1>Create An ECommerce Store, Food Ordering, Service Booking System etc in facebook Messenger</h1>
       <p>Select, Modify, Design High Converting Funnels, Sit Back, Get Profits!</p>
     </div>
-    <div class="row row-cols-1 mt-2">
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/17 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Create An ECommerce Store, Food Ordering, Service Booking System etc in facebook Messenger</h5>
-                <p class="card-text">Unleash the power of facebook community and expand your reach to 3 Billion potential customers. Create multiple stores, add products, categories, attributes, selling price, coupons, add to cart, checkout, payment gateway, invoice all from one place to your messenger. Isn’t this fascinating? Yeah! Similarly create a restaurant ordering system, appointment system for your clinic, makeup/salon, hotel booking or any other niche & let the botsuite work for you from lead generation to follow-up and conversion.
-                </p>
-                <div class="count">
-                  <span>01</span>
+    <div class="row">
+      <div class="div col-12 col-md-10 mx-auto">
+        <div class="row row-cols-1 mt-2">
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/17 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Create An ECommerce Store, Food Ordering, Service Booking System etc in
+                      facebook Messenger</h5>
+                    <p class="card-text">Unleash the power of facebook community and expand your reach to 3 Billion
+                      potential customers. Create multiple stores, add products, categories, attributes, selling price,
+                      coupons, add to cart, checkout, payment gateway, invoice all from one place to your messenger.
+                      Isn’t this fascinating? Yeah! Similarly create a restaurant ordering system, appointment system
+                      for your clinic, makeup/salon, hotel booking or any other niche & let the botsuite work for you
+                      from lead generation to follow-up and conversion.
+                    </p>
+                    <div class="count">
+                      <span>01</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Setup Messenger Bot For Replying
-                  24/7</h5>
-                <p class="card-text">Text, image, video, GIF, button, generic template, quick reply, carousel
-                  Button with - postback, URL, webview, call-us, user birthday
-                  Quick reply with - postback, user email, user phone
-                  Multiple reply set in single response - custom delay, typing on
-                  Customise bot setting with - mark as seen settings, welcome message, get started button, chat with human settings, unsubscribe button reply, resubscribe button reply
-                  Postback manager for - creating postback reply, save it and use in different place                  
-                </p>
-                <div class="count">
-                  <span>02</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Setup Messenger Bot For Replying
+                      24/7</h5>
+                    <p class="card-text">Text, image, video, GIF, button, generic template, quick reply, carousel
+                      Button with - postback, URL, webview, call-us, user birthday
+                      Quick reply with - postback, user email, user phone
+                      Multiple reply set in single response - custom delay, typing on
+                      Customise bot setting with - mark as seen settings, welcome message, get started button, chat with
+                      human settings, unsubscribe button reply, resubscribe button reply
+                      Postback manager for - creating postback reply, save it and use in different place
+                    </p>
+                    <div class="count">
+                      <span>02</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Bot Settings Export, Import & Tree View For Easy Bot Building</h5>
-                <p class="card-text">Export bot settings
-                  Save bot settings as template
-                  Agency admin can save bot settings as template for users
-                  Import bot settings to any pages
-                  Visual & interactive tree view of bot for easy bot building
-                  Easy drag and drop bot edit - replies, button, carousel, quick replies
-                </p>
-                <div class="count">
-                  <span>03</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Bot Settings Export, Import & Tree View For Easy Bot Building</h5>
+                    <p class="card-text">Export bot settings
+                      Save bot settings as template
+                      Agency admin can save bot settings as template for users
+                      Import bot settings to any pages
+                      Visual & interactive tree view of bot for easy bot building
+                      Easy drag and drop bot edit - replies, button, carousel, quick replies
+                    </p>
+                    <div class="count">
+                      <span>03</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Abandoned Cart Recovery Reminder</h5>
-                <p class="card-text">Recover lost sale
-                  Send upto 3 reminders
-                  Messenger, email, sms and what not!                   
-                </p>
-                <div class="count">
-                  <span>04</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Abandoned Cart Recovery Reminder</h5>
+                    <p class="card-text">Recover lost sale
+                      Send upto 3 reminders
+                      Messenger, email, sms and what not!
+                    </p>
+                    <div class="count">
+                      <span>04</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">SMS Marketing</h5>
-                <p class="card-text">Contact list - collect phone number inside messenger, import external list, list segmentation
-                  All popular sms gateway integration such as twilio, nexmo, routemobile, clickatell, custom http api, semysms, africa’s talking                  
-                </p>
-                <div class="count">
-                  <span>05</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">SMS Marketing</h5>
+                    <p class="card-text">Contact list - collect phone number inside messenger, import external list,
+                      list segmentation
+                      All popular sms gateway integration such as twilio, nexmo, routemobile, clickatell, custom http
+                      api, semysms, africa’s talking
+                    </p>
+                    <div class="count">
+                      <span>05</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Email Marketing</h5>
-                <p class="card-text">Contact list - collect phone number inside messenger, import external list, list segmentation
-                  Email broadcast - opt in email alert, bulk email sending, schedule email campaign, click rate, open rate
-                  Email sender integration such as sendgrid, mailgun, SMTP, mandrill
-                  Autoresponder integration such as mailchimp, sendinblue, active campaign, mautic, acelle
-                  Create beautiful email templates - rich email editor, drag and drop email builder.                  
-                </p>
-                <div class="count">
-                  <span>06</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Email Marketing</h5>
+                    <p class="card-text">Contact list - collect phone number inside messenger, import external list,
+                      list segmentation
+                      Email broadcast - opt in email alert, bulk email sending, schedule email campaign, click rate,
+                      open rate
+                      Email sender integration such as sendgrid, mailgun, SMTP, mandrill
+                      Autoresponder integration such as mailchimp, sendinblue, active campaign, mautic, acelle
+                      Create beautiful email templates - rich email editor, drag and drop email builder.
+                    </p>
+                    <div class="count">
+                      <span>06</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Facebook Comment Marketing With Comment Bot</h5>
-                <p class="card-text">World’s first tool for private reply with - Text, image, video, GIF, button, generic template, quick reply, carousel
-                  Turn post commenters into messenger leads - auto comment reply, auto private reply, keyword based reply, save reply template, segment subscribers, dark post reply
-                  Auto comment on page’s post - schedule comment, periodic comment, random comment, increase engagement.                  
-                </p>
-                <div class="count">
-                  <span>07</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Facebook Comment Marketing With Comment Bot</h5>
+                    <p class="card-text">World’s first tool for private reply with - Text, image, video, GIF, button,
+                      generic template, quick reply, carousel
+                      Turn post commenters into messenger leads - auto comment reply, auto private reply, keyword based
+                      reply, save reply template, segment subscribers, dark post reply
+                      Auto comment on page’s post - schedule comment, periodic comment, random comment, increase
+                      engagement.
+                    </p>
+                    <div class="count">
+                      <span>07</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/18 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
-                <p class="card-text">Social media posting - Post now, schedule post, bulk post, csv bulk post planner
-                  Post type - text, link, image, video
-                  Integrated social media for posting - facebook, twitter, linkedin, reddit, blogger, wordpress.                  
-                </p>
-                <div class="count">
-                  <span>08</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/18 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Social Media Marketing</h5>
+                    <p class="card-text">Social media posting - Post now, schedule post, bulk post, csv bulk post
+                      planner
+                      Post type - text, link, image, video
+                      Integrated social media for posting - facebook, twitter, linkedin, reddit, blogger, wordpress.
+                    </p>
+                    <div class="count">
+                      <span>08</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Comparison Marketing & Analytical Marketing</h5>
-                <p class="card-text">Website facebook existence comparison - Number of share, number of reactions, number of content, plan for your next social media marketing strategy
-                  Facebook page analytics with hundreds of metrics
-                  Facebook page messenger analytics.                  
-                </p>
-                <div class="count">
-                  <span>09</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Comparison Marketing & Analytical Marketing</h5>
+                    <p class="card-text">Website facebook existence comparison - Number of share, number of reactions,
+                      number of content, plan for your next social media marketing strategy
+                      Facebook page analytics with hundreds of metrics
+                      Facebook page messenger analytics.
+                    </p>
+                    <div class="count">
+                      <span>09</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2">
-              <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <div class="card-body">
-                <h5 class="card-title">Instagram Comment Marketing With Comment Bot</h5>
-                <p class="card-text">Auto comment reply, keyword based reply
-                  Manual comment post, get recent post list
-                  Post analytics, hashtag search.                                  
-                </p>
-                <div class="count">
-                  <span>09</span>
+          <div class="col mb-3">
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2">
+                  <img src="site-assets/images/student-865073_1280 1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Instagram Comment Marketing With Comment Bot</h5>
+                    <p class="card-text">Auto comment reply, keyword based reply
+                      Manual comment post, get recent post list
+                      Post analytics, hashtag search.
+                    </p>
+                    <div class="count">
+                      <span>09</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -442,7 +482,9 @@
       <div class="col-12 col-lg-6 order-lg-1">
         <div class="webinar_registration_content">
           <h1>Learn how botsuite can take your business to the next level</h1>
-          <p>Shift your gears and accelerate your growth with the awesome tools and value addition from botsuite. Watch the live demo or join us over the webinar to check the entire platform and experience the awesomeness for yourself. </p>
+          <p>Shift your gears and accelerate your growth with the awesome tools and value addition from botsuite. Watch
+            the live demo or join us over the webinar to check the entire platform and experience the awesomeness for
+            yourself. </p>
           <div class="btns_groups">
             <div class="btn__primary">
               <div class="eff"></div>

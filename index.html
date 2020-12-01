@@ -20,10 +20,19 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <a class="navbar-brand" href="#"><img src="site-assets/images/site-logo.png" alt=""></a>
-    <div class="nav__links">
-      <ul class="nav">
+    <button type="button" class="navbar-toggler text-primary" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list-nested" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav mx-auto">
         <li class="nav-item">
           <a class="nav-link active" href="index.html">Home</a>
         </li>
@@ -39,21 +48,23 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item d-block d-lg-none">
+          <div class="btn__primary demo-btn">
+            <div class="eff"></div>
+            <a href="#"> Get a Demo </a>
+          </div>
+        </li>
       </ul>
-    </div>
-    <div class="nav__btns">
-      <a class="login-link" href="#">Login</a>
-      <div class="btn__primary demo-btn">
-        <div class="eff"></div>
-        <a href="#"> Get a Demo </a>
+      <div class="nav__btns my-auto ml-auto">
+        <a class="login-link" href="#">Login</a>
+        <div class="btn__primary demo-btn">
+          <div class="eff"></div>
+          <a href="#"> Get a Demo </a>
+        </div>
       </div>
-      <a href="#" class="text-primary mobile-menu-toggle">
-        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list-nested" fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd"
-            d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
-        </svg>
-      </a>
     </div>
   </nav>
 
