@@ -139,229 +139,191 @@
         <h1>Featured Customers</h1>
         <p>Learn about the many ways our customers use Segment to solve their biggest data problems.</p>
       </div>
-      <div class="features_list nav nav-tabs" id="nav-tab" role="tablist">
-        <div class="active" id="nav-tab-1-tab" data-toggle="tab" href="#nav-tab-1" role="tab" aria-controls="nav-tab-1"
-          aria-selected="true"><span>All Jobs</span></div>
-        <div id="nav-tab-2-tab" data-toggle="tab" href="#nav-tab-2" role="tab" aria-controls="nav-tab-2"
-          aria-selected="false"><span>Engineering & Technology</span></div>
-        <div id="nav-tab-3-tab" data-toggle="tab" href="#nav-tab-3" role="tab" aria-controls="nav-tab-3"
-          aria-selected="false"><span>Marketing</span></div>
-        <div id="nav-tab-4-tab" data-toggle="tab" href="#nav-tab-4" role="tab" aria-controls="nav-tab-4"
-          aria-selected="false"><span>Support</span></div>
+      <div class="features_list filter_tabs">
+        <div class="active" data-tabs="all"><span>All Jobs</span></div>
+        <div data-tabs="engineering_technology"><span>Engineering & Technology</span></div>
+        <div data-tabs="marketing"><span>Marketing</span></div>
+        <div data-tabs="support"><span>Support</span></div>
       </div>
     </div>
   </section>
 
-
-  <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-tab-1" role="tabpanel" aria-labelledby="nav-tab-1-tab">
-      <!-- Customer companies -->
-      <section class="container customer_companies_container mb-5">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/allergan.png" alt="">
-              </div>
-              <p>Allergan powers its new loyalty program with Segment</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
+  <!-- Customer companies -->
+  <section class="container customer_companies_container mb-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+      <div class="col all engineering_technology">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/allergan.png" alt="">
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/bonodos.png" alt="">
-              </div>
-              <p>Bonobos increases customer purchases by optimizing Facebook ads with Segment</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/ibm.png" alt="">
-              </div>
-              <p>IBM Cloud increases revenue by standardizing data with Segment</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/shift.png" alt="">
-              </div>
-              <p>Shift doubles marketing campaign performance with Segment & Iterable</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/meredith.png" alt="">
-              </div>
-              <p>Meredith powers unified customer analytics across the enterprise with Segment</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/rokfin.png" alt="">
-              </div>
-              <p>Rokfin uses Segment to unlock powerful new customer journey insights</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/invision-logo-pink-1024x343.png" alt="">
-              </div>
-              <p>InVision designs predictive models using Segment warehouses</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/instacart.png">
-              </div>
-              <p>Instacart uses Segment to improve the grocery delivery experience</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="mb-3">
-                <img src="site-assets/images/fox.png">
-              </div>
-              <p>FOX delivers better insights while protecting customer privacy using Segment</p>
-              <span>
-                <a href="#" class="text-dark">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                    <path fill-rule="evenodd"
-                      d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="tab-pane fade" id="nav-tab-2" role="tabpanel" aria-labelledby="nav-tab-2-tab">
-      <!-- Start Sample Container -->
-      <div class="jumbotron jumbotron-fluid my-0">
-        <div class="container">
-          <h1 class="display-4">Engineering & Technology</h1>
+          <p>Allergan powers its new loyalty program with Segment</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
         </div>
       </div>
-      <!-- End Sample Container -->
-    </div>
-    <div class="tab-pane fade" id="nav-tab-3" role="tabpanel" aria-labelledby="nav-tab-3-tab">
-      <!-- Start Sample Container -->
-      <div class="jumbotron jumbotron-fluid my-0">
-        <div class="container">
-          <h1 class="display-4">Marketing</h1>
+      <div class="col all marketing ">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/bonodos.png" alt="">
+          </div>
+          <p>Bonobos increases customer purchases by optimizing Facebook ads with Segment</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
         </div>
       </div>
-      <!-- End Sample Container -->
-    </div>
-    <div class="tab-pane fade" id="nav-tab-4" role="tabpanel" aria-labelledby="nav-tab-4-tab">
-      <!-- Start Sample Container -->
-      <div class="jumbotron jumbotron-fluid my-0">
-        <div class="container">
-          <h1 class="display-4">Support</h1>
+      <div class="col all support">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/ibm.png" alt="">
+          </div>
+          <p>IBM Cloud increases revenue by standardizing data with Segment</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
         </div>
       </div>
-      <!-- End Sample Container -->
+      <div class="col all marketing">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/shift.png" alt="">
+          </div>
+          <p>Shift doubles marketing campaign performance with Segment & Iterable</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="col all engineering_technology">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/meredith.png" alt="">
+          </div>
+          <p>Meredith powers unified customer analytics across the enterprise with Segment</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="col all support">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/rokfin.png" alt="">
+          </div>
+          <p>Rokfin uses Segment to unlock powerful new customer journey insights</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="col all marketing">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/invision-logo-pink-1024x343.png" alt="">
+          </div>
+          <p>InVision designs predictive models using Segment warehouses</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="col all support">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/instacart.png">
+          </div>
+          <p>Instacart uses Segment to improve the grocery delivery experience</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="col all engineering_technology">
+        <div class="card">
+          <div class="mb-3">
+            <img src="site-assets/images/fox.png">
+          </div>
+          <p>FOX delivers better insights while protecting customer privacy using Segment</p>
+          <span>
+            <a href="#" class="text-dark">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                <path fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
-  </div>
-
-
+  </section>
 
   <!-- Footer -->
   <footer>
@@ -429,6 +391,52 @@
   </footer>
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script>
+    // JS Filter
+    var filter_tabs = document.querySelectorAll(".filter_tabs div");
+    var all = document.querySelectorAll(".all");
+    var engineering_technology = document.querySelectorAll(".engineering_technology");
+    var marketing = document.querySelectorAll(".marketing");
+    var support = document.querySelectorAll(".support");
+
+    filter_tabs.forEach((tab => {
+      tab.addEventListener("click", event => {
+        filter_tabs.forEach((tab) => {
+          tab.classList.remove("active");
+        })
+        tab.classList.add("active");
+
+        var tabval = tab.getAttribute("data-tabs");
+
+        all.forEach((item) => {
+          item.style.display = "none";
+        })
+
+        if (tabval == "engineering_technology") {
+          engineering_technology.forEach((engineering_technology) => {
+            engineering_technology.style.display = "block";
+          })
+        }
+        else if (tabval == "marketing") {
+          marketing.forEach((marketing) => {
+            marketing.style.display = "block";
+          })
+        }
+        else if (tabval == "support") {
+          support.forEach((support) => {
+            support.style.display = "block";
+          })
+        }
+        else {
+          all.forEach((item) => {
+            item.style.display = "block";
+          })
+        }
+
+      });
+    }));
+
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
