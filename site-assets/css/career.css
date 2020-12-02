@@ -79,7 +79,7 @@
 }
 /* Navbar Header */
 .navbar {
-    background-color: var(--white);
+    background-color: var(--blue);
     color: #fff;
     padding: 7px 87px;
     display: flex;
@@ -102,7 +102,7 @@ ul > li > a {
     font-size: 14px !important;
     line-height: 24px !important;
     letter-spacing: 0.5px !important;
-    color: var(--blue) !important;
+    color: var(--white) !important;
     --webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -139,7 +139,7 @@ ul > li > a:hover {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    color: var(--blue);
+    color: var(--white);
     --webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     margin-right: 20px;
@@ -154,7 +154,7 @@ ul > li > a:hover {
 }
 /* Site Header */
 .clip__path {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #29B5E8 0%, rgba(255, 255, 255, 0) 100%), rgba(82, 189, 149, 0.91);
+    background: var(--blue);
     width: 100%;
     height: 100vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
@@ -182,7 +182,7 @@ ul > li > a:hover {
     font-size: 51px;
     line-height: 56px;
     text-align: center;
-    color: #000000;
+    color: #fff;
     --webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }

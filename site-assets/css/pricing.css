@@ -533,9 +533,12 @@ footer .row .col-12 ul > li > a:hover {
     .plans__overview > .tabs {
         margin-bottom: -20px;
     }
+    .plans__overview > .tabs > .btn-group {
+        display: flex !important;
+    }
     .plans__overview > .tabs > .btn-group > .tab__btn {
-        width: 124px;
-        height: 40px;
+        width: auto;
+        height: auto;
     }
     .plans__overview > .plans__overview__body > .plans__overview__container > .row > div:last-child > .demo__status {
         margin-top: 20px;
