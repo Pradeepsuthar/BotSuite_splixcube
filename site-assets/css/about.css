@@ -80,8 +80,7 @@
 }
 /* Navbar Header */
 .navbar {
-    background-color: transparent;
-    position: absolute;
+    background-color: var(--blue);
     color: #fff;
     padding: 7px 87px;
     display: flex;
