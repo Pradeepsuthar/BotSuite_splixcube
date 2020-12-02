@@ -533,6 +533,7 @@ footer .row .col-12 ul > li > a:hover {
     /* Site Header */
     .clip__path {
         height: 180vh;
+        clip-path: polygon(0 0, 100% 0, 300% 100%, 0 75%);
     }
     .site__header__container {
         width: 100%;
@@ -655,7 +656,7 @@ footer .row .col-12 ul > li > a:hover {
         line-break: auto;
     }
     .funnel_section .card .card-body p {
-        word-break: break-all;
+        word-break: break-word;
     }
     .funnel_section .card .row div:last-child {
         padding: 20px;
